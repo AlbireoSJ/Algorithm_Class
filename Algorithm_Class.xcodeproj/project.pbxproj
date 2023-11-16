@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FB0919872ADE41FE00CF15F1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FB0919862ADE41FE00CF15F1 /* main.c */; };
+		FB0919952ADE445E00CF15F1 /* Isometric_Sequence_02.c in Sources */ = {isa = PBXBuildFile; fileRef = FB0919942ADE445E00CF15F1 /* Isometric_Sequence_02.c */; };
+		FB0919972ADE44B900CF15F1 /* Isometric_Sequence_03.c in Sources */ = {isa = PBXBuildFile; fileRef = FB0919962ADE44B900CF15F1 /* Isometric_Sequence_03.c */; };
+		FB0919992ADE44BE00CF15F1 /* Isometric_Sequence_04.c in Sources */ = {isa = PBXBuildFile; fileRef = FB0919982ADE44BE00CF15F1 /* Isometric_Sequence_04.c */; };
+		FB09199B2ADE44C100CF15F1 /* Isometric_Sequence.c in Sources */ = {isa = PBXBuildFile; fileRef = FB09199A2ADE44C100CF15F1 /* Isometric_Sequence.c */; };
+		FB09199D2ADE44EF00CF15F1 /* Geometric_Sequence_01.c in Sources */ = {isa = PBXBuildFile; fileRef = FB09199C2ADE44EF00CF15F1 /* Geometric_Sequence_01.c */; };
+		FB09199F2ADE44F400CF15F1 /* Geometric_Sequence_02.c in Sources */ = {isa = PBXBuildFile; fileRef = FB09199E2ADE44F400CF15F1 /* Geometric_Sequence_02.c */; };
+		FB0919A12ADE44F800CF15F1 /* Geometric_Sequence_03.c in Sources */ = {isa = PBXBuildFile; fileRef = FB0919A02ADE44F800CF15F1 /* Geometric_Sequence_03.c */; };
+		FB0919A32ADE44FB00CF15F1 /* Geometric_Sequence_04.c in Sources */ = {isa = PBXBuildFile; fileRef = FB0919A22ADE44FB00CF15F1 /* Geometric_Sequence_04.c */; };
+		FB0919A52ADE44FF00CF15F1 /* Geometric_Sequence_05.c in Sources */ = {isa = PBXBuildFile; fileRef = FB0919A42ADE44FF00CF15F1 /* Geometric_Sequence_05.c */; };
+		FB0919A72ADEA8F700CF15F1 /* Class_5th.c in Sources */ = {isa = PBXBuildFile; fileRef = FB0919A62ADEA8F700CF15F1 /* Class_5th.c */; };
+		FB6546502AEF68AF006ACAC2 /* Class_MidTerm.c in Sources */ = {isa = PBXBuildFile; fileRef = FB65464F2AEF68AF006ACAC2 /* Class_MidTerm.c */; };
+		FB720ED82AFB44CD00DDA0E9 /* Class_10th.c in Sources */ = {isa = PBXBuildFile; fileRef = FB720ED72AFB44CD00DDA0E9 /* Class_10th.c */; };
+		FBE381412B01E01A00290217 /* Class_11th.c in Sources */ = {isa = PBXBuildFile; fileRef = FBE381402B01E01A00290217 /* Class_11th.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,26 @@
 /* Begin PBXFileReference section */
 		FB0919832ADE41FE00CF15F1 /* Algorithm_Class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Class; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0919862ADE41FE00CF15F1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FB09198D2ADE425700CF15F1 /* 4th */ = {isa = PBXFileReference; lastKnownFileType = folder; name = 4th; path = ../../../Documents/KOPO/Algorithm_Class/4th; sourceTree = "<group>"; };
+		FB09198E2ADE425700CF15F1 /* 3rd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = 3rd; path = ../../../Documents/KOPO/Algorithm_Class/3rd; sourceTree = "<group>"; };
+		FB09198F2ADE425700CF15F1 /* sum.eddx */ = {isa = PBXFileReference; lastKnownFileType = file; name = sum.eddx; path = ../../../Documents/KOPO/Algorithm_Class/sum.eddx; sourceTree = "<group>"; };
+		FB0919902ADE425700CF15F1 /* noodle.eddx */ = {isa = PBXFileReference; lastKnownFileType = file; name = noodle.eddx; path = ../../../Documents/KOPO/Algorithm_Class/noodle.eddx; sourceTree = "<group>"; };
+		FB0919912ADE425700CF15F1 /* Geometric_Sequence.eddx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Geometric_Sequence.eddx; path = ../../../Documents/KOPO/Algorithm_Class/Geometric_Sequence.eddx; sourceTree = "<group>"; };
+		FB0919922ADE425700CF15F1 /* Class */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Class; path = ../../../Documents/KOPO/Algorithm_Class/Class; sourceTree = "<group>"; };
+		FB0919932ADE425700CF15F1 /* Isometric_Sequence.eddx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Isometric_Sequence.eddx; path = ../../../Documents/KOPO/Algorithm_Class/Isometric_Sequence.eddx; sourceTree = "<group>"; };
+		FB0919942ADE445E00CF15F1 /* Isometric_Sequence_02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Isometric_Sequence_02.c; path = ../../../Documents/KOPO/Algorithm_Class/3rd/Isometric_Sequence_02.c; sourceTree = "<group>"; };
+		FB0919962ADE44B900CF15F1 /* Isometric_Sequence_03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Isometric_Sequence_03.c; path = ../../../Documents/KOPO/Algorithm_Class/3rd/Isometric_Sequence_03.c; sourceTree = "<group>"; };
+		FB0919982ADE44BE00CF15F1 /* Isometric_Sequence_04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Isometric_Sequence_04.c; path = ../../../Documents/KOPO/Algorithm_Class/3rd/Isometric_Sequence_04.c; sourceTree = "<group>"; };
+		FB09199A2ADE44C100CF15F1 /* Isometric_Sequence.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Isometric_Sequence.c; path = ../../../Documents/KOPO/Algorithm_Class/3rd/Isometric_Sequence.c; sourceTree = "<group>"; };
+		FB09199C2ADE44EF00CF15F1 /* Geometric_Sequence_01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Geometric_Sequence_01.c; path = ../../../Documents/KOPO/Algorithm_Class/4th/Geometric_Sequence_01.c; sourceTree = "<group>"; };
+		FB09199E2ADE44F400CF15F1 /* Geometric_Sequence_02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Geometric_Sequence_02.c; path = ../../../Documents/KOPO/Algorithm_Class/4th/Geometric_Sequence_02.c; sourceTree = "<group>"; };
+		FB0919A02ADE44F800CF15F1 /* Geometric_Sequence_03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Geometric_Sequence_03.c; path = ../../../Documents/KOPO/Algorithm_Class/4th/Geometric_Sequence_03.c; sourceTree = "<group>"; };
+		FB0919A22ADE44FB00CF15F1 /* Geometric_Sequence_04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Geometric_Sequence_04.c; path = ../../../Documents/KOPO/Algorithm_Class/4th/Geometric_Sequence_04.c; sourceTree = "<group>"; };
+		FB0919A42ADE44FF00CF15F1 /* Geometric_Sequence_05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Geometric_Sequence_05.c; path = ../../../Documents/KOPO/Algorithm_Class/4th/Geometric_Sequence_05.c; sourceTree = "<group>"; };
+		FB0919A62ADEA8F700CF15F1 /* Class_5th.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Class_5th.c; sourceTree = "<group>"; };
+		FB65464F2AEF68AF006ACAC2 /* Class_MidTerm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Class_MidTerm.c; sourceTree = "<group>"; };
+		FB720ED72AFB44CD00DDA0E9 /* Class_10th.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Class_10th.c; sourceTree = "<group>"; };
+		FBE381402B01E01A00290217 /* Class_11th.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Class_11th.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,26 @@
 			isa = PBXGroup;
 			children = (
 				FB0919862ADE41FE00CF15F1 /* main.c */,
+				FB0919942ADE445E00CF15F1 /* Isometric_Sequence_02.c */,
+				FB0919962ADE44B900CF15F1 /* Isometric_Sequence_03.c */,
+				FB0919982ADE44BE00CF15F1 /* Isometric_Sequence_04.c */,
+				FB09199A2ADE44C100CF15F1 /* Isometric_Sequence.c */,
+				FB09199C2ADE44EF00CF15F1 /* Geometric_Sequence_01.c */,
+				FB09199E2ADE44F400CF15F1 /* Geometric_Sequence_02.c */,
+				FB0919A02ADE44F800CF15F1 /* Geometric_Sequence_03.c */,
+				FB0919A22ADE44FB00CF15F1 /* Geometric_Sequence_04.c */,
+				FB0919A42ADE44FF00CF15F1 /* Geometric_Sequence_05.c */,
+				FB09198E2ADE425700CF15F1 /* 3rd */,
+				FB09198D2ADE425700CF15F1 /* 4th */,
+				FB0919922ADE425700CF15F1 /* Class */,
+				FB0919912ADE425700CF15F1 /* Geometric_Sequence.eddx */,
+				FB0919932ADE425700CF15F1 /* Isometric_Sequence.eddx */,
+				FB0919902ADE425700CF15F1 /* noodle.eddx */,
+				FB09198F2ADE425700CF15F1 /* sum.eddx */,
+				FB0919A62ADEA8F700CF15F1 /* Class_5th.c */,
+				FB65464F2AEF68AF006ACAC2 /* Class_MidTerm.c */,
+				FB720ED72AFB44CD00DDA0E9 /* Class_10th.c */,
+				FBE381402B01E01A00290217 /* Class_11th.c */,
 			);
 			path = Algorithm_Class;
 			sourceTree = "<group>";
@@ -119,7 +172,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB720ED82AFB44CD00DDA0E9 /* Class_10th.c in Sources */,
+				FB0919972ADE44B900CF15F1 /* Isometric_Sequence_03.c in Sources */,
+				FBE381412B01E01A00290217 /* Class_11th.c in Sources */,
+				FB0919A12ADE44F800CF15F1 /* Geometric_Sequence_03.c in Sources */,
+				FB0919952ADE445E00CF15F1 /* Isometric_Sequence_02.c in Sources */,
+				FB0919A72ADEA8F700CF15F1 /* Class_5th.c in Sources */,
+				FB09199B2ADE44C100CF15F1 /* Isometric_Sequence.c in Sources */,
+				FB09199D2ADE44EF00CF15F1 /* Geometric_Sequence_01.c in Sources */,
+				FB09199F2ADE44F400CF15F1 /* Geometric_Sequence_02.c in Sources */,
+				FB0919A32ADE44FB00CF15F1 /* Geometric_Sequence_04.c in Sources */,
+				FB0919A52ADE44FF00CF15F1 /* Geometric_Sequence_05.c in Sources */,
+				FB0919992ADE44BE00CF15F1 /* Isometric_Sequence_04.c in Sources */,
 				FB0919872ADE41FE00CF15F1 /* main.c in Sources */,
+				FB6546502AEF68AF006ACAC2 /* Class_MidTerm.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
