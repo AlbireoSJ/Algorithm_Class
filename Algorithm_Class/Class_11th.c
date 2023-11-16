@@ -216,32 +216,32 @@
 //    return 0;
 //}
 
-//int main(int argc, const char * argv[]) // 문제. 평균 석차 구하기
-//{
-//    int num[3] = {1, 2, 3};
-//    int kor[3] = {80, 60, 90};
-//    int eng[3] = {70, 80, 60};
-//    int math[3] = {50, 80, 100};
-//    int sum[3] = {};
-//    float avg[3] = {};
-//    int rank[3] = {1, 1, 1};
-//
-//    for (int i = 0; i < 3; i++) {
-//        sum[i] = kor[i] + eng[i] + math[i];
-//        avg[i] = (float)(sum[i]) / 3;  // 정확한 부동 소수점 평균 계산
-//    }
-//
-//    for (int i = 0; i < 3; i++) {
-//        for (int j = 0; j < 3; j++) {
-//            if (avg[i] < avg[j]) {
-//                rank[i] = rank[i] + 1;
-//            }
-//        }
-//    }
-//    // 출력
-//    printf("번호\t국어\t영어\t수학\t합계\t평균\t   석차\n");
-//    for (int k = 0; k < 3; k++) {
-//        printf("%d\t%d\t%d\t%d\t%d\t%.2f\t%d\n", num[k], kor[k], eng[k], math[k], sum[k], avg[k], rank[k]);
-//    }
-//}
+int main(int argc, const char * argv[]) // 문제. 평균 석차 구하기
+{
+    int num[3] = {1, 2, 3};
+    int kor[3] = {80, 60, 90};
+    int eng[3] = {70, 80, 60};
+    int math[3] = {50, 80, 100};
+    int sum[3] = {};
+    float avg[3] = {};
+    int rank[3] = {1, 1, 1};
+
+    for (int i = 0; i < 3; i++) {
+        sum[i] = kor[i] + eng[i] + math[i];
+        avg[i] = (float)(sum[i]) / 3;  // 정확한 부동 소수점 평균 계산
+    }
+
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            if (avg[i] < avg[j]) {
+                rank[i] = rank[i] + 1;
+            }
+        }
+    }
+    // 출력
+    printf("번호\t국어\t영어\t수학\t합계\t평균\t   석차\n");
+    for (int k = 0; k < 3; k++) {
+        printf("%d\t%d\t%d\t%d\t%d\t%.2f\t%d\n", num[k], kor[k], eng[k], math[k], sum[k], avg[k], rank[k]);
+    }
+}
 
